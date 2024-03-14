@@ -8,6 +8,11 @@
         height: 85%;
     }
 
+    .logo {
+        height: 67px;
+        width: 151px;
+    }
+
     .content {
         justify-content: flex-end;
         left: 0;
@@ -17,18 +22,21 @@
     }
 
     .character-name {
-        font-size: 35px;
+        font-size: 27px;
     }
 
     .description {
         max-width: 500px;
+        font-size: 17px;
     }
 
     .buttons {
         flex-direction: row;
         align-items: flex-end;
-        width: 100%;
+        width: 100vw;
+        height: 100vh;
         padding: 31px;
+        background-color: none;
     }
 
     .button img {
@@ -41,9 +49,9 @@
         height: auto;
     }
 
-    .content .logo {
-        width: 171px;
-        height: 75px;
+    .logo {
+        height: 47px;
+        width: 109px;
     }
 
     .content {
@@ -51,15 +59,21 @@
     }
 
     .content .character-name {
-        font-size: 25px;
+        font-size: 19px;
     }
 
     .buttons {
         top: -21%;
         padding: 21px;
+        background-color: none;
     }
 
     .button img {
-        max-width: 51px;
+        max-width: 41px;
+    }
+
+    .description {
+        max-width: 250px;
+        font-size: 13px;
     }
 }
